@@ -10,7 +10,11 @@
 
 var sunsetColors = ["brown", "purple", "pink", "red", "orange", "yellow"]
 
-//Code here
+let sunset = sunsetColors => {
+    let setColors = sunsetColors;
+    sunsetColors[0] = 'blue';
+    return setColors;
+}
 
 
 //////////////////PROBLEM 2////////////////////
