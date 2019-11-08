@@ -42,7 +42,7 @@
 
   function leapFrog(arr) {
     for(let i = 0; i < arr.length; i+=2){
-      arr[i] + ' frog';
+      arr.splice(i, 1, arr[i] + ' frog');
     }
     return arr;
   }
